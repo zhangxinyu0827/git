@@ -1,0 +1,12 @@
+[Scene]
+; REQUIRED
+ ; folder where all frames are and video frame rate
+imgFolder	= data/2DMOT2015/test/AVG-TownCentre/img1/
+frameRate	= 25
+detFile		= data/2DMOT2015/test/AVG-TownCentre/det/det.txt
+
+ ; OPTIONAL
+imgFileFormat	=%06d.jpg	; frame file format
+sequence	= AVG-TownCentre; name for this sequence
+
+

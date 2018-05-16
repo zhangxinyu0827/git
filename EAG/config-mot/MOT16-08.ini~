@@ -1,0 +1,14 @@
+[Scene]
+; REQUIRED
+ ; folder where all frames are and video frame rate
+imgFolder	= data/MOT16/test/MOT16-08/img1/
+frameRate	= 30
+detFile		= data/MOT016/test/MOT16-08/det/det.txt
+
+ ; OPTIONAL
+imgFileFormat	=%06d.jpg	; frame file format
+sequence	= MOT16-08; name for this sequence
+
+; gt if available
+gtFile		= data/MOT16/test/MOT16-08/gt/gt.txt
+

@@ -1,0 +1,13 @@
+[Scene]
+; REQUIRED
+ ; folder where all frames are and video frame rate
+imgFolder	= data/2DMOT2015/train/ADL-Rundle-8/img1/
+frameRate	= 30
+detFile		= data/2DMOT2015/train/ADL-Rundle-8/det/det.txt
+
+ ; OPTIONAL
+imgFileFormat	=
+sequence	= ADL-Rundle-8; name for this sequence
+
+; gt if available
+gtFile		= data/2DMOT2015/train/ADL-Rundle-8/gt/gt.txt

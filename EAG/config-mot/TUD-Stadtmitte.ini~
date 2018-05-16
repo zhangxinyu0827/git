@@ -1,0 +1,13 @@
+[Scene]
+; REQUIRED
+ ; folder where all frames are and video frame rate
+imgFolder	= data/2DMOT2015/train/TUD-Stadtmitte/img1/
+frameRate	= 25
+detFile		= data/2DMOT2015/train/TUD-Stadtmitte/det/det.txt
+
+ ; OPTIONAL
+imgFileFormat	=
+sequence	= TUD-Stadtmitte; name for this sequence
+
+; gt if available
+gtFile		= data/2DMOT2015/train/TUD-Stadtmitte/gt/gt.txt

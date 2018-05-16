@@ -1,0 +1,12 @@
+[Scene]
+; REQUIRED
+ ; folder where all frames are and video frame rate
+imgFolder	= data/2DMOT2015/test/KITTI-19/img1/
+frameRate	= 10
+detFile		= data/2DMOT2015/test/KITTI-19/det/det.txt
+
+ ; OPTIONAL
+imgFileFormat	=%06d.jpg	; frame file format
+sequence	= KITTI-19; name for this sequence
+
+
